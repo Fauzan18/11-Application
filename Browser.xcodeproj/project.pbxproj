@@ -14,6 +14,13 @@
 		AF34FFC31F79E5080010984E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF34FFC11F79E5080010984E /* LaunchScreen.storyboard */; };
 		AF34FFCE1F79E5090010984E /* BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34FFCD1F79E5090010984E /* BrowserTests.swift */; };
 		AF34FFD91F79E5090010984E /* BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34FFD81F79E5090010984E /* BrowserUITests.swift */; };
+		AFAC259D1F7A544500F40659 /* Developer.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAC259C1F7A544500F40659 /* Developer.png */; };
+		AFAC25A31F7A60A500F40659 /* 2d2575ef486559ed5ad60655ef152c84--wallpaper-azul-wallpaper-backgrounds (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFAC25A21F7A60A500F40659 /* 2d2575ef486559ed5ad60655ef152c84--wallpaper-azul-wallpaper-backgrounds (1).jpg */; };
+		AFC0E1831F79E8DF001DBCF6 /* MuslimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0E1821F79E8DF001DBCF6 /* MuslimViewController.swift */; };
+		AFC0E1871F79EFE2001DBCF6 /* YufidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0E1861F79EFE2001DBCF6 /* YufidViewController.swift */; };
+		AFC0E1891F79F0FF001DBCF6 /* SaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0E1881F79F0FF001DBCF6 /* SaViewController.swift */; };
+		AFC0E18B1F79FE1D001DBCF6 /* KsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0E18A1F79FE1D001DBCF6 /* KsViewController.swift */; };
+		AFC0E18D1F79FF3F001DBCF6 /* RemajaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0E18C1F79FF3F001DBCF6 /* RemajaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		AF34FFD41F79E5090010984E /* BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF34FFD81F79E5090010984E /* BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserUITests.swift; sourceTree = "<group>"; };
 		AF34FFDA1F79E5090010984E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAC259C1F7A544500F40659 /* Developer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Developer.png; sourceTree = "<group>"; };
+		AFAC25A21F7A60A500F40659 /* 2d2575ef486559ed5ad60655ef152c84--wallpaper-azul-wallpaper-backgrounds (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2d2575ef486559ed5ad60655ef152c84--wallpaper-azul-wallpaper-backgrounds (1).jpg"; sourceTree = "<group>"; };
+		AFC0E1821F79E8DF001DBCF6 /* MuslimViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuslimViewController.swift; sourceTree = "<group>"; };
+		AFC0E1861F79EFE2001DBCF6 /* YufidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YufidViewController.swift; sourceTree = "<group>"; };
+		AFC0E1881F79F0FF001DBCF6 /* SaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaViewController.swift; sourceTree = "<group>"; };
+		AFC0E18A1F79FE1D001DBCF6 /* KsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KsViewController.swift; sourceTree = "<group>"; };
+		AFC0E18C1F79FF3F001DBCF6 /* RemajaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemajaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		AF34FFB71F79E5080010984E /* Browser */ = {
 			isa = PBXGroup;
 			children = (
+				AFAC25A21F7A60A500F40659 /* 2d2575ef486559ed5ad60655ef152c84--wallpaper-azul-wallpaper-backgrounds (1).jpg */,
+				AFAC259C1F7A544500F40659 /* Developer.png */,
 				AF34FFB81F79E5080010984E /* AppDelegate.swift */,
 				AF34FFBA1F79E5080010984E /* ViewController.swift */,
 				AF34FFBC1F79E5080010984E /* Main.storyboard */,
 				AF34FFBF1F79E5080010984E /* Assets.xcassets */,
 				AF34FFC11F79E5080010984E /* LaunchScreen.storyboard */,
 				AF34FFC41F79E5080010984E /* Info.plist */,
+				AFC0E1821F79E8DF001DBCF6 /* MuslimViewController.swift */,
+				AFC0E1861F79EFE2001DBCF6 /* YufidViewController.swift */,
+				AFC0E1881F79F0FF001DBCF6 /* SaViewController.swift */,
+				AFC0E18A1F79FE1D001DBCF6 /* KsViewController.swift */,
+				AFC0E18C1F79FF3F001DBCF6 /* RemajaViewController.swift */,
 			);
 			path = Browser;
 			sourceTree = "<group>";
@@ -235,6 +256,8 @@
 				AF34FFC31F79E5080010984E /* LaunchScreen.storyboard in Resources */,
 				AF34FFC01F79E5080010984E /* Assets.xcassets in Resources */,
 				AF34FFBE1F79E5080010984E /* Main.storyboard in Resources */,
+				AFAC25A31F7A60A500F40659 /* 2d2575ef486559ed5ad60655ef152c84--wallpaper-azul-wallpaper-backgrounds (1).jpg in Resources */,
+				AFAC259D1F7A544500F40659 /* Developer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC0E1891F79F0FF001DBCF6 /* SaViewController.swift in Sources */,
+				AFC0E1871F79EFE2001DBCF6 /* YufidViewController.swift in Sources */,
+				AFC0E18B1F79FE1D001DBCF6 /* KsViewController.swift in Sources */,
 				AF34FFBB1F79E5080010984E /* ViewController.swift in Sources */,
+				AFC0E1831F79E8DF001DBCF6 /* MuslimViewController.swift in Sources */,
+				AFC0E18D1F79FF3F001DBCF6 /* RemajaViewController.swift in Sources */,
 				AF34FFB91F79E5080010984E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +533,7 @@
 				AF34FFDF1F79E5090010984E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF34FFE01F79E5090010984E /* Build configuration list for PBXNativeTarget "BrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +542,7 @@
 				AF34FFE21F79E5090010984E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF34FFE31F79E5090010984E /* Build configuration list for PBXNativeTarget "BrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +551,7 @@
 				AF34FFE51F79E5090010984E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
